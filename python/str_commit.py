@@ -1,7 +1,5 @@
 
+### codefights.com slithering in strings get commit
 
-s = '1#$!SKSKKS'
-
-n = s.rfind('1#$!')
-
-l = ''.join( x for x in s )
+def getCommit(commit):
+    return commit.lstrip('0?+!')

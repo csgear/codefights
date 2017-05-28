@@ -1,11 +1,7 @@
+### codefights.com string slithering new style formating
 
 import re
 
-s = "dkkdk %f%%"
-
-s1 = s.format("{}", "%")
-
-print(s1)
-
 def newStyleFormatting(s):
-    return "%".join([re.sub("%([bcdeEfFgGnosxX])","{}",S) for S in s.split("%%")])
+    ### split by %% and process each split using regex
+    return "%".join([re.sub("%([bcdeEfFgGnosxX])", "{}", S) for S in s.split("%%")])
