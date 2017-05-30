@@ -1,2 +1,2 @@
 # codefights
-Source code from hackerrank leetcode codefights etc.
+Solution for codefights.com
