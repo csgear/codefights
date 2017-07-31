@@ -1,5 +1,7 @@
 # idea pycharm
 .idea/
+.vscode/
+pai/
 
 # Compiled Object files
 *.slo
