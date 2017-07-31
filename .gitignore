@@ -3,6 +3,9 @@
 .vscode/
 pai/
 
+# output file 
+a.out
+
 # Compiled Object files
 *.slo
 *.lo
